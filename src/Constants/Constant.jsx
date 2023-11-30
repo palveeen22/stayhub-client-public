@@ -41,12 +41,36 @@ export const conItem = [
     icon: "game-icons:mountain-cave",
     text: "Mountaint view",
   },
+  {
+    icon: "lucide:dog",
+    text: "Dog friendly",
+  },
+  {
+    icon: "material-symbols:surfing",
+    text: "Surfing camp",
+  },
+  {
+    icon: "game-icons:mountain-cave",
+    text: "Mountaint view",
+  },
+  {
+    icon: "lucide:dog",
+    text: "Dog friendly",
+  },
+  {
+    icon: "material-symbols:surfing",
+    text: "Surfing camp",
+  },
+  {
+    icon: "game-icons:mountain-cave",
+    text: "Mountaint view",
+  },
 ];
 
 export const ourVillas = [
   {
     img: img1,
-    price: "IDR 2,4 million",
+    price: 20102020,
     location: "Sanur, Bali",
     villaName: "Luxury Villa in Sanur",
     bedTotal: 4,
@@ -56,7 +80,7 @@ export const ourVillas = [
   },
   {
     img: img1,
-    price: "IDR 1,2 million",
+    price: 7002000,
     location: "Canggu, Bali",
     villaName: "Luxury Villa in Canggu",
     bedTotal: 3,
@@ -66,7 +90,7 @@ export const ourVillas = [
   },
   {
     img: img1,
-    price: "IDR 1,8 million",
+    price: 100000,
     location: "Uluwatu, Bali",
     villaName: "Luxury Villa in Ulu",
     bedTotal: 6,
@@ -74,24 +98,25 @@ export const ourVillas = [
     areaTotal: "16,22",
     type: "sale",
   },
-  {
-    img: img1,
-    price: "IDR 1,1 million",
-    location: "Denpasar, Bali",
-    villaName: "Luxury Villa in Denpasar",
-    bedTotal: 2,
-    bathTotal: 1,
-    areaTotal: "16,11",
-    type: "top",
-  },
-  {
-    img: img1,
-    price: "IDR 2,4 million",
-    location: "Sanur, Bali",
-    villaName: "Luxury Villa in Sanur",
-    bedTotal: 4,
-    bathTotal: 2,
-    areaTotal: "16,30",
-    type: "top",
-  },
+
+  //   {
+  //     img: img1,
+  //     price: "IDR 1,1 million",
+  //     location: "Denpasar, Bali",
+  //     villaName: "Luxury Villa in Denpasar",
+  //     bedTotal: 2,
+  //     bathTotal: 1,
+  //     areaTotal: "16,11",
+  //     type: "top",
+  //   },
+  //   {
+  //     img: img1,
+  //     price: "IDR 2,4 million",
+  //     location: "Sanur, Bali",
+  //     villaName: "Luxury Villa in Sanur",
+  //     bedTotal: 4,
+  //     bathTotal: 2,
+  //     areaTotal: "16,30",
+  //     type: "top",
+  //   },
 ];

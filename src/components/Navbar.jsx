@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       <section className="bg-[#ffffff] w-full paddingXShorter py-3">
         <div className=" flex justify-between">
-          <span className="flex items-center">
+          <span className="flex items-center cursor-pointer">
             <Icon icon="jam:airbnb" width={40} color="#FF5A5F" />
             {/* <Link to={`/`}> */}
             <p className="text-[#FF5A5F] text-xl font-semibold">Homely</p>

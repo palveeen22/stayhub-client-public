@@ -2,12 +2,12 @@ import React from "react";
 
 const Promotion = () => {
   return (
-    <section className="paddingXShorter">
+    <section className="paddingXShorter paddingYShorter2">
       <div className="p-8 py-12 bg-[#FF5A5F] text-[#ffffff] rounded-2xl">
         <div className="mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <h2 className="text-center text-6xl tracki font-bold">
-              New year Up to
+              New year Up to {"  "}
               <br className="sm:hidden" />
               50% Off
             </h2>
