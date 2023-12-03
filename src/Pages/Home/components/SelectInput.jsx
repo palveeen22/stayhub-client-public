@@ -16,27 +16,27 @@ const SelectInput = () => (
     options={[
       {
         value: "1",
-        label: "Not Identified",
+        label: "Hostel",
       },
       {
         value: "2",
-        label: "Closed",
+        label: "Apartment",
       },
       {
         value: "3",
-        label: "Communicated",
+        label: "Hotel",
       },
       {
         value: "4",
-        label: "Identified",
+        label: "Villa",
       },
       {
         value: "5",
-        label: "Resolved",
+        label: "Mini Hotel",
       },
       {
         value: "6",
-        label: "Cancelled",
+        label: "Gest House",
       },
     ]}
   />

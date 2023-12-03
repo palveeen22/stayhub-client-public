@@ -9,10 +9,10 @@ const Footer = () => {
       <footer className="paddingXShorter divide-y  dark:bg-gray-800">
         <div className="flex flex-col justify-between py-10 mx-auto space-y-2 lg:flex-row lg:space-y-0">
           <div className="flex justify-between">
-            <span className="flex items-center">
-              <Icon icon="jam:airbnb" width={40} color="#FF5A5F" />
+            <span className="flex justify-between gap-2  items-center cursor-pointer">
+              <Icon icon="fa6-solid:s" width={25} color="#3CB371" />
               {/* <Link to={`/`}> */}
-              <p className="text-[#FF5A5F] text-xl font-semibold">Homely.</p>
+              <p className="text-[#3CB371] text-xl font-semibold">StayHub</p>
               {/* </Link> */}
             </span>
           </div>
