@@ -1,0 +1,4 @@
+buat rating
+buat login dan daftar
+cms
+details public dan details setelah login

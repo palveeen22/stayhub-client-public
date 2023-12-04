@@ -1,9 +1,25 @@
 import React from "react";
+import { Icon } from "@iconify/react";
 
 const Offers = () => {
   return (
     <section className="paddingX paddingYShorter2 w-full">
-      <h3 className="font-normal text-3xl my-6">Offer of the week</h3>
+      <div className="relative flex justify-between my-6">
+        <h3 className="font-normal text-3xl">Offer of the week</h3>
+        <div className="absolute flex justify-center gap-2 right-0 bottom-0">
+          <div className="border border-bg-[#848884] h-11 w-11 rounded-full cursor-pointer">
+            <Icon icon="mingcute:left-line" width={30} color="#23281a" />
+          </div>
+          <div className="bg-[#3CB371] h-11 w-11 rounded-full cursor-pointer">
+            <Icon
+              icon="mingcute:right-line"
+              width={30}
+              color="#ffffff"
+              className="items-center"
+            />
+          </div>
+        </div>
+      </div>
       <card className="flex justify-center gap-4">
         <div className="relative h-72 w-full">
           <img
@@ -11,13 +27,17 @@ const Offers = () => {
             className="rounded-xl h-full w-full object-cover"
             alt="Villa"
           />
-          <div className="absolute top-0 bottom-0  flex flex-col justify-center items-center text-white h-full w-full bg-black opacity-50 rounded-xl">
-            <h3 className="text-center">Take your longest vacations</h3>
+          <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50 rounded-xl"></div>
+
+          <div className="absolute top-0 bottom-0 flex flex-col gap-4 justify-center items-start pl-5 text-white h-full w-full rounded-xl">
+            <h3 className="text-center font-light">
+              Take your longest vacations
+            </h3>
             <p className="text-start">
               Look for long term accomodation, there are many <br />
               offers monthly discounts.
             </p>
-            <button className="rounded-full bg-[#ffffff] p-2 text-[#000000]">
+            <button className="rounded-full bg-[#ffffff] px-3 py-2 text-[#000000] font-light text-sm">
               View Offer
             </button>
           </div>
@@ -28,14 +48,17 @@ const Offers = () => {
             className="rounded-xl h-full w-full object-cover"
             alt="Villa"
           />
-          <div className="absolute top-0 bottom-0  flex flex-col justify-center items-center text-white h-full w-full bg-black opacity-50 rounded-xl">
-            <h3 className="text-center">50% discounts for those of you</h3>
+          <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50 rounded-xl"></div>
+          <div className="absolute top-0 bottom-0  flex flex-col gap-4 justify-center items-start pl-5 text-white h-full w-full rounded-xl">
+            <h3 className="text-center font-light">
+              50% discounts for those of you
+            </h3>
             <p className="text-start">
               We give a 50% discounts for those of you who want
               <br />
               to vacation in Indonesia.
             </p>
-            <button className="rounded-full bg-[#ffffff] p-2 text-[#000000]">
+            <button className="rounded-full bg-[#ffffff] px-3 py-2 text-[#000000] font-light text-sm">
               View Offer
             </button>
           </div>

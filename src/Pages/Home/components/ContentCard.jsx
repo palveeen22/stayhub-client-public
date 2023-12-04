@@ -29,7 +29,7 @@ const ContentCard = () => {
           </div>
         </div>
       </div>
-      <div class="overflow-x-auto ">
+      <div class="overflow-x-auto">
         <CardProduct />
       </div>
       <div className="paddingX absolute flex justify-center gap-2 right-0 bottom-0">

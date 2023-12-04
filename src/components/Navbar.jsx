@@ -21,9 +21,13 @@ const Navbar = () => {
           </span>
           {/* input search */}
           <div className="flex justify-between items-center gap-6">
-            <p className="text-sm font-light">Make Reservations</p>
-            <p className="text-sm font-light">About Us</p>
-            <p className="text-sm font-light">Best Deal for You</p>
+            <p className="text-sm font-light cursor-pointer">
+              Make Reservations
+            </p>
+            <p className="text-sm font-light cursor-pointer">About Us</p>
+            <p className="text-sm font-light cursor-pointer">
+              Best Deal for You
+            </p>
           </div>
 
           <div className=" flex items-center justify-between gap-4">

@@ -16,7 +16,7 @@ const CategoryCard = () => {
                   alt="Villa"
                 />
                 <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50 rounded-xl"></div>
-                <p className="absolute bottom-5 left-2 text-base text-white rounded-full px-2 py-1 italic">
+                <p className="absolute bottom-5 left-2 text-base text-white rounded-full px-2 py-1 ">
                   {e?.category}
                 </p>
               </div>

@@ -1,4 +1,4 @@
-import img1 from "../assets/5.png";
+import img1 from "../assets/1.png";
 
 export const conItem = [
   {
@@ -160,4 +160,26 @@ export const category = [
   //   img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   //   category: "Villa",
   // },
+];
+
+export const comment = [
+  {
+    name: "Alvin putra",
+    image: img1,
+    status: "Founder, StayHub",
+    comment:
+      "The villa staff went above and beyond to cater to our every need.",
+  },
+  {
+    name: "Jek putra",
+    image: img1,
+    status: "Founder, StayHub",
+    comment: "We book villa in bali, it super good",
+  },
+  {
+    name: "AlvSiciin putra",
+    image: img1,
+    status: "Founder, StayHub",
+    comment: "We book villa in bali, it super good",
+  },
 ];
