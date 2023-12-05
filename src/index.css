@@ -431,6 +431,10 @@ input[type="date"]:valid::before {
         @apply my-[4vw];
     }
 
+    .marginYShorter3 {
+        @apply my-[1vw];
+     }
+     
     .marginYShorter2 {
         @apply my-[2vw];
     }
