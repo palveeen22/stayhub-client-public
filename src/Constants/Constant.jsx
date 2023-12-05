@@ -21,50 +21,50 @@ export const conItem = [
     icon: "material-symbols-light:water",
     text: "Lake and River",
   },
-  {
-    icon: "guidance:sauna",
-    text: "Sauna",
-  },
-  {
-    icon: "pepicons-pencil:wifi",
-    text: "Wifi",
-  },
-  {
-    icon: "lucide:dog",
-    text: "Dog friendly",
-  },
-  {
-    icon: "material-symbols:surfing",
-    text: "Surfing camp",
-  },
-  {
-    icon: "game-icons:mountain-cave",
-    text: "Mountaint view",
-  },
-  {
-    icon: "lucide:dog",
-    text: "Dog friendly",
-  },
-  {
-    icon: "material-symbols:surfing",
-    text: "Surfing camp",
-  },
-  {
-    icon: "game-icons:mountain-cave",
-    text: "Mountaint view",
-  },
-  {
-    icon: "lucide:dog",
-    text: "Dog friendly",
-  },
-  {
-    icon: "material-symbols:surfing",
-    text: "Surfing camp",
-  },
-  {
-    icon: "game-icons:mountain-cave",
-    text: "Mountaint view",
-  },
+  // {
+  //   icon: "guidance:sauna",
+  //   text: "Sauna",
+  // },
+  // {
+  //   icon: "pepicons-pencil:wifi",
+  //   text: "Wifi",
+  // },
+  // {
+  //   icon: "lucide:dog",
+  //   text: "Dog friendly",
+  // },
+  // {
+  //   icon: "material-symbols:surfing",
+  //   text: "Surfing camp",
+  // },
+  // {
+  //   icon: "game-icons:mountain-cave",
+  //   text: "Mountaint view",
+  // },
+  // {
+  //   icon: "lucide:dog",
+  //   text: "Dog friendly",
+  // },
+  // {
+  //   icon: "material-symbols:surfing",
+  //   text: "Surfing camp",
+  // },
+  // {
+  //   icon: "game-icons:mountain-cave",
+  //   text: "Mountaint view",
+  // },
+  // {
+  //   icon: "lucide:dog",
+  //   text: "Dog friendly",
+  // },
+  // {
+  //   icon: "material-symbols:surfing",
+  //   text: "Surfing camp",
+  // },
+  // {
+  //   icon: "game-icons:mountain-cave",
+  //   text: "Mountaint view",
+  // },
 ];
 
 export const ourVillas = [

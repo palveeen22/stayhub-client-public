@@ -2,6 +2,7 @@ import React from "react";
 import { ourVillas } from "../../../Constants/Constant";
 import { Icon } from "@iconify/react";
 import formatCurrency from "../../../Helpers/Currency";
+import { Link } from "react-router-dom";
 
 const CardProduct = () => {
   return (
@@ -10,12 +11,15 @@ const CardProduct = () => {
         {ourVillas?.map((e) => {
           return (
             <div className="relative w-[25%] flex flex-col justify-start overflow-hidden cursor-pointer">
+              {/* to={`/product/${e?.id}`}> */}
               <div className="h-60 w-full">
-                <img
-                  src={e?.img}
-                  className="rounded-xl h-full w-full object-cover"
-                  alt="Villa"
-                />
+                <Link to={`/product/:productId`}>
+                  <img
+                    src={e?.img}
+                    className="rounded-xl h-full w-full object-cover"
+                    alt="Villa"
+                  />
+                </Link>
                 <Icon
                   icon="material-symbols-light:favorite"
                   width={30}

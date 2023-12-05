@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home/Home";
+import CardDetails from "./Pages/Details/CardDetails";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -11,10 +13,14 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home title="Home Page" />} />
-          {/* <Route
+          <Route
             path="/product/:productId"
-            element={<CartById title="Katalog" />}
-          /> */}
+            element={<CardDetails title="Check out our new" />}
+          />
+          <Route
+            path="/about-us"
+            element={<About title="Lets know each other" />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

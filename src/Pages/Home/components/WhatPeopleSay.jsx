@@ -10,7 +10,7 @@ const WhatPeopleSay = () => {
           return (
             <div
               key={index}
-              className="border w-full rounded-2xl p-10 shadow flex flex-col justify-between"
+              className="border w-full rounded-2xl p-10 shadow flex flex-col justify-between mt-5  px-5 py-2  border-[#000000] border-b-4 font-black translate-y-2 border-r-4"
             >
               <div>
                 <h3 className="my-10 text-3xl font-light">{e?.comment}</h3>
