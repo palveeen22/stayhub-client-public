@@ -4,18 +4,18 @@ import { Icon } from "@iconify/react";
 import formatCurrency from "../../../Helpers/Currency";
 import { Link } from "react-router-dom";
 
-const CardProduct = () => {
+const CardProduct = ({ dataLodging }) => {
   return (
     <section className="w-full h-full">
-      <div className="flex gap-8">
-        {ourVillas?.map((e) => {
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-8">
+        {dataLodging?.map((e) => {
           return (
-            <div className="relative w-[25%] flex flex-col justify-start overflow-hidden cursor-pointer">
+            <div className="relative flex flex-col justify-start overflow-hidden cursor-pointer">
               {/* to={`/product/${e?.id}`}> */}
               <div className="h-60 w-full">
-                <Link to={`/product/:productId`}>
+                <Link to={`/product/${e?.id}`}>
                   <img
-                    src={e?.img}
+                    src={e?.imgUrl}
                     className="rounded-xl h-full w-full object-cover"
                     alt="Villa"
                   />
@@ -28,9 +28,7 @@ const CardProduct = () => {
               </div>
               <div className="flex flex-col py-4 gap-4">
                 <div className="flex justify-between gap-2">
-                  <p className="text-start text-sm font-light">
-                    {e?.villaName}
-                  </p>
+                  <p className="text-start text-sm font-light">{e?.name}</p>
                 </div>
                 <div className="flex justify-around">
                   <div className="flex justify-between items-center">
@@ -53,14 +51,14 @@ const CardProduct = () => {
                       width={20}
                       color="#848884"
                     />
-                    <p className="text-sm font-light">{e?.bedTotal} Beds </p>
+                    <p className="text-sm font-light">{e?.roomCapacity} Beds</p>
                   </div>
                 </div>
                 <div className="flex justify-between">
                   <div className="flex flex-col">
                     <div className="flex justify-center gap-2">
                       <p className=" text-lg font-normal">
-                        {formatCurrency(e?.price)}
+                        {formatCurrency(1200000)}
                       </p>
                       <span className="font-extralight text-[#848884] text-base">
                         / night
@@ -70,9 +68,11 @@ const CardProduct = () => {
                       Including taxes and fees
                     </p>
                   </div>
-                  <button className="flex justify-between gap-2 rounded-full border px-2 py-2 bg-[#23281a] text-[#ffffff] items-center  hover:translate-y-[2px] cursor-pointer text-sm font-light">
-                    View Rooms
-                  </button>
+                  <Link to={`/product/${e?.id}`}>
+                    <button className="flex justify-between gap-2 rounded-full border px-2 py-2 bg-[#23281a] text-[#ffffff] items-center  hover:translate-y-[2px] cursor-pointer text-sm font-light">
+                      View Rooms
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

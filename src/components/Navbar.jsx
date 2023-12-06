@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <section className="bg-[#ffffff] w-full paddingXShorter py-2">
         <div className=" flex justify-between">
-          <Link to={`/`}>
+          <Link to={"/"}>
             <span className="flex justify-between gap-2  items-center cursor-pointer">
               <Icon icon="fa6-solid:s" width={25} color="#3CB371" />
               {/* <Link to={`/`}> */}
