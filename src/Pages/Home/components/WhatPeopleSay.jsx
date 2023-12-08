@@ -5,7 +5,7 @@ const WhatPeopleSay = () => {
   return (
     <section className="paddingX paddingYShorter2 w-full">
       <h3 className="font-normal text-3xl my-6">What do people say?</h3>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         {comment?.map((e, index) => {
           return (
             <div

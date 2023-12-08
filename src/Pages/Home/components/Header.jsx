@@ -3,12 +3,12 @@ import img from "../../../assets/hdr.png";
 
 const Header = () => {
   return (
-    <div className="relative paddingXShorter2 paddingYShorter">
-      <div className="">
+    <div className="relative">
+      <div className="w-full">
         <img
           src={img}
           alt="gambar villa"
-          className="w-full md:h-[60rem] h-[40rem] object-cover shadow-xl object-top rounded-3xl"
+          className="w-full md:h-[56rem] h-[40rem] object-cover"
         />
       </div>
 

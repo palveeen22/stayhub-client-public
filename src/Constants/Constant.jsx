@@ -21,50 +21,26 @@ export const conItem = [
     icon: "material-symbols-light:water",
     text: "Lake and River",
   },
-  // {
-  //   icon: "guidance:sauna",
-  //   text: "Sauna",
-  // },
-  // {
-  //   icon: "pepicons-pencil:wifi",
-  //   text: "Wifi",
-  // },
-  // {
-  //   icon: "lucide:dog",
-  //   text: "Dog friendly",
-  // },
-  // {
-  //   icon: "material-symbols:surfing",
-  //   text: "Surfing camp",
-  // },
-  // {
-  //   icon: "game-icons:mountain-cave",
-  //   text: "Mountaint view",
-  // },
-  // {
-  //   icon: "lucide:dog",
-  //   text: "Dog friendly",
-  // },
-  // {
-  //   icon: "material-symbols:surfing",
-  //   text: "Surfing camp",
-  // },
-  // {
-  //   icon: "game-icons:mountain-cave",
-  //   text: "Mountaint view",
-  // },
-  // {
-  //   icon: "lucide:dog",
-  //   text: "Dog friendly",
-  // },
-  // {
-  //   icon: "material-symbols:surfing",
-  //   text: "Surfing camp",
-  // },
-  // {
-  //   icon: "game-icons:mountain-cave",
-  //   text: "Mountaint view",
-  // },
+  {
+    icon: "guidance:sauna",
+    text: "Sauna",
+  },
+  {
+    icon: "pepicons-pencil:wifi",
+    text: "Wifi",
+  },
+  {
+    icon: "material-symbols:surfing",
+    text: "Surfing camp",
+  },
+  {
+    icon: "game-icons:mountain-cave",
+    text: "Mountaint view",
+  },
+  {
+    icon: "lucide:dog",
+    text: "Dog friendly",
+  },
 ];
 
 export const ourVillas = [
@@ -108,16 +84,16 @@ export const ourVillas = [
     areaTotal: "16,11",
     type: "top",
   },
-  //   {
-  //     img: img1,
-  //     price: "IDR 2,4 million",
-  //     location: "Sanur, Bali",
-  //     villaName: "Luxury Villa in Sanur",
-  //     bedTotal: 4,
-  //     bathTotal: 2,
-  //     areaTotal: "16,30",
-  //     type: "top",
-  //   },
+  {
+    img: img1,
+    price: "IDR 2,4 million",
+    location: "Sanur, Bali",
+    villaName: "Luxury Villa in Sanur",
+    bedTotal: 4,
+    bathTotal: 2,
+    areaTotal: "16,30",
+    type: "top",
+  },
 ];
 
 export const destination = [
@@ -156,30 +132,46 @@ export const category = [
     img: "https://images.unsplash.com/photo-1629794226066-349748040fb7?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Hostel",
   },
-  // {
-  //   img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //   category: "Villa",
-  // },
+  {
+    img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Villa",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Cluster",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Beach House",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1520681902979-0784b03b638a?q=80&w=2880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Mountain House",
+  },
 ];
 
 export const comment = [
   {
     name: "Alvin putra",
-    image: img1,
+    image:
+      "https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Founder, StayHub",
     comment:
       "The villa staff went above and beyond to cater to our every need.",
   },
   {
     name: "Jek putra",
-    image: img1,
+    image:
+      "https://images.unsplash.com/photo-1679679008383-6f778fe07828?q=80&w=2268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Founder, StayHub",
-    comment: "We book villa in bali, it super good",
+    comment:
+      "We book villa in bali, it super good but we need pay extra in food, i need more food bro",
   },
   {
     name: "AlvSiciin putra",
-    image: img1,
+    image:
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Founder, StayHub",
-    comment: "We book villa in bali, it super good",
+    comment: "very nice experience here",
   },
 ];

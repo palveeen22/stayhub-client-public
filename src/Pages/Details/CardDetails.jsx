@@ -1,43 +1,41 @@
 import { useEffect, useState } from "react";
-import Comments from "./Components/Comments";
-import { conItem } from "../../Constants/Constant";
 import axios from "axios";
-
 import { useParams } from "react-router";
 
+// material
 import { Icon } from "@iconify/react";
+import { conItem } from "../../Constants/Constant";
 import Rating from "@mui/material/Rating";
+import Comments from "./Components/Comments";
 import Stack from "@mui/material/Stack";
 import img from "../../assets/1.png";
 import img2 from "../../assets/map.png";
 import Map from "./Components/Map";
+import LoadToTop from "../../Helpers/LoadToTop";
 
 const CardDetails = () => {
   const [lodgingDetail, setLodgingDetail] = useState([]);
   const [loading, setLoading] = useState(false);
-  const { productId } = useParams();
+  const { lodgingId } = useParams();
 
   const apiUrl = "https://phase2-aio.vercel.app";
 
-  const getDetail = async (productId) => {
+  const getDetail = async (lodgingId) => {
     try {
       setLodgingDetail(true);
       const { data } = await axios.get(
-        `${apiUrl}/apis/pub/rent-room/lodgings/${productId}`
+        `${apiUrl}/apis/pub/rent-room/lodgings/${lodgingId}`
       );
       setLodgingDetail(data.data);
+      LoadToTop();
     } catch (error) {
       console.log(error);
-      // Swal.fire({
-      //   icon: "error",
-      //   title: error.response.data.error,
-      // });
     } finally {
       setLoading(false);
     }
   };
   useEffect(() => {
-    getDetail(productId);
+    getDetail(lodgingId);
   }, []);
   return (
     <section className="paddingX paddingYShorter3 min-h-screen">

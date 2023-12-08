@@ -1,26 +1,12 @@
 import React from "react";
-import { Icon } from "@iconify/react";
 
 const Offers = () => {
   return (
     <section className="paddingX paddingYShorter2 w-full">
       <div className="relative flex justify-between my-6">
         <h3 className="font-normal text-3xl">Offer of the week</h3>
-        <div className="absolute flex justify-center gap-2 right-0 bottom-0">
-          <div className="border border-bg-[#848884] h-11 w-11 rounded-full cursor-pointer">
-            <Icon icon="mingcute:left-line" width={30} color="#23281a" />
-          </div>
-          <div className="bg-[#3CB371] h-11 w-11 rounded-full cursor-pointer">
-            <Icon
-              icon="mingcute:right-line"
-              width={30}
-              color="#ffffff"
-              className="items-center"
-            />
-          </div>
-        </div>
       </div>
-      <card className="flex justify-center gap-4">
+      <card className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
         <div className="relative h-72 w-full">
           <img
             src="https://images.unsplash.com/photo-1554481923-a6918bd997bc?q=80&w=3330&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

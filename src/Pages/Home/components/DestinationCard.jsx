@@ -9,7 +9,7 @@ const DestinationCard = () => {
         <h3 className="font-normal text-3xl my-6">
           Popular destination in Indonesia
         </h3>
-        <div className="flex justify-start gap-4">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
           {destination?.map((e) => {
             return (
               <card className="flex flex-col justify-center">
@@ -26,7 +26,7 @@ const DestinationCard = () => {
                     17 result
                   </p>
                 </div>
-                <div className="flex justify-between my-4 px-2">
+                <div className="flex justify-between my-4 px-2 w-80">
                   <span className="flex gap-x-2 items-center">
                     <Icon
                       icon="fa6-solid:location-dot"

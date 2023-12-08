@@ -5,11 +5,11 @@ const CategoryCard = () => {
   return (
     <section className="paddingX paddingYShorter2 w-full">
       <h3 className="font-normal text-3xl my-6">Explore by category</h3>
-      <div className="flex justify-start gap-4">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
         {category?.map((e) => {
           return (
             <card className="relative flex flex-col justify-center">
-              <div className="h-48 w-80 relative">
+              <div className="h-48 w-70 relative">
                 <img
                   src={e?.img}
                   className="rounded-xl h-full w-full object-cover"

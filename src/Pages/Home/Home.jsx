@@ -1,9 +1,4 @@
 import React from "react";
-import { Icon } from "@iconify/react";
-import SelectInput from "./components/SelectInput";
-import Convenciences from "./components/Convenciences";
-import map from "../../assets/map.png";
-import CardProduct from "./components/CardProduct";
 import Header from "./components/Header";
 import ContentCard from "./components/ContentCard";
 import Promotion from "../../components/Promotion";
@@ -15,13 +10,13 @@ import WhatPeopleSay from "./components/WhatPeopleSay";
 const Home = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <ContentCard />
       <DestinationCard />
       <Offers />
       <CategoryCard />
       <WhatPeopleSay />
-      {/* <Promotion /> */}
+      <Promotion />
     </>
   );
 };

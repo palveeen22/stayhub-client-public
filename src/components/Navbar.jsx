@@ -4,15 +4,9 @@ import img from "../assets/pn.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
-      <section className="bg-[#ffffff] w-full paddingXShorter py-2">
+      <nav className="bg-[#ffffff] w-full paddingXShorter py-2">
         <div className=" flex justify-between">
           <Link to={"/"}>
             <span className="flex justify-between gap-2  items-center cursor-pointer">
@@ -27,9 +21,7 @@ const Navbar = () => {
             <p className="text-sm font-light cursor-pointer">
               Make Reservations
             </p>
-            <Link to={`/about-us`}>
-              <p className="text-sm font-light cursor-pointer">About Us</p>
-            </Link>
+            <p className="text-sm font-light cursor-pointer">About Us</p>
             <p className="text-sm font-light cursor-pointer">
               Best Deal for You
             </p>
@@ -52,8 +44,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </section>
-      <div class="border-b pt-2"></div>
+      </nav>
     </>
   );
 };
