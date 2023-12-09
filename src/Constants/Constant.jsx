@@ -175,3 +175,21 @@ export const comment = [
     comment: "very nice experience here",
   },
 ];
+
+export const NavItem = [
+  {
+    // path: "/OurService",
+    label: "About Us",
+    type: "text",
+  },
+  {
+    // path: "/OurService",
+    label: "Big Deals",
+    type: "text",
+  },
+  {
+    // path: "/StepBuyer",
+    label: "Promotion",
+    type: "text",
+  },
+];

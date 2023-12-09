@@ -82,7 +82,6 @@ const CardProduct = ({ dataLodging, prevPage, nextPage, page, totalPage }) => {
           })}
         </div>
       </section>
-
       <div className="paddingX absolute flex justify-center items-center gap-2 right-0 bottom-0 left-0">
         <div
           className="border border-bg-[#848884] h-11 w-11 rounded-full cursor-pointer flex justify-center items-center"
