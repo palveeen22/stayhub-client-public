@@ -63,7 +63,7 @@ const ContentCard = () => {
         </div>
       ) : (
         <section className="relative w-full flex flex-col gap-6 paddingX paddingYShorter">
-          <div className="md:flex flex-col justify-between">
+          <div className="flex  justify-between">
             <h3 className="font-normal md:text-3xl">
               Holdiay accodmodation <br />
               recommendations for you
